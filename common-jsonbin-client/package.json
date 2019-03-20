@@ -1,0 +1,14 @@
+{
+  "name": "common-jsonbin-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.1",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  }
+}

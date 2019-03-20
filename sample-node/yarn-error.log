@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn
+
+PATH: 
+  /home/jb/.cargo/bin:/home/jb/applications/flutter/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/jb/Android/Sdk/platform-tools:/home/jb/.gem/ruby/2.5.0/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  11.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/common-jsonbin-client: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:137468:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:138440:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "sample-node",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+      "common-jsonbin-client": "1.0.0",
+      "ts-node": "^8.0.3",
+      "typescript": "^3.3.4000"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

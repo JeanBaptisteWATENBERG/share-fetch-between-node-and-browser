@@ -1,0 +1,11 @@
+{
+  "name": "node-browser-common-fetch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-node": "ts-node sample-node/src/index.ts"
+  },
+  "workspaces": ["./*"],
+  "private": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sample-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "common-jsonbin-client": "1.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  }
+}
